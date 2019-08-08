@@ -10,7 +10,7 @@ import SceneKit
 import ModelIO
 import SceneKit.ModelIO
 
-public class Insert3DViewer {
+public struct Insert3DViewer {
     public var width: Int
     public var height: Int
     public var x: Int
@@ -23,7 +23,7 @@ public class Insert3DViewer {
     }
 }
 
-public class Insert3DModel {
+public struct Insert3DModel {
     public var mesh: String
     public var material: String
     public init() {
