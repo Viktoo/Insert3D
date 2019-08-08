@@ -1,0 +1,6 @@
+framework module Insert3D {
+  umbrella header "Insert3D-umbrella.h"
+
+  export *
+  module * { export * }
+}

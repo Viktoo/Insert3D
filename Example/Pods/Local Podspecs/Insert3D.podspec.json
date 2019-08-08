@@ -1,0 +1,22 @@
+{
+  "name": "Insert3D",
+  "version": "0.1.0",
+  "summary": "A short description of Insert3D.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Viktor Makarskyy/Insert3D",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Viktor Makarskyy": "vmakarskyy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Viktor Makarskyy/Insert3D.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Insert3D/Classes/**/*"
+}

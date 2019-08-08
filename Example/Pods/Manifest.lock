@@ -1,0 +1,16 @@
+PODS:
+  - Insert3D (0.1.0)
+
+DEPENDENCIES:
+  - Insert3D (from `../`)
+
+EXTERNAL SOURCES:
+  Insert3D:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Insert3D: d4b825dd040052eea2a31ef283d20ccae0653773
+
+PODFILE CHECKSUM: 38ee4129e810b82597d9e01bd9556a5c1a8aca49
+
+COCOAPODS: 1.7.5

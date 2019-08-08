@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F5F78513AAFB12F50D1FD78D8F38796 /* Insert3D-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E23ABA2BEEB20E8BDC37C8DF6538FCB1 /* Insert3D-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D975BCB0CEC3F9C562522014F049116 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507CBC6DDE85062D997CF248B26D791 /* ReplaceMe.swift */; };
+		63AD25A71F4614F1300CF60D9BA55361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6C442CBEA938EF0658223863D9060D13 /* Pods-Insert3D_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A64CE71635AA941540B3FD1CA4FEE49 /* Pods-Insert3D_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82BF111B36F76BF1D6CFEF4F0B407E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A5963CB0842DEBE33FD3DEB7FB7CBA6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B80CADA9CF19EF8C20A77A57C2191D7B /* Pods-Insert3D_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B4045C2AEA40D8F52F198184BBE7E /* Pods-Insert3D_Example-dummy.m */; };
+		B969219CDBDB910349C98783BCB8C7C4 /* Insert3D-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AA91FEC5826ADEE6BB97103F174346 /* Insert3D-dummy.m */; };
+		CCAF1465CFDD4EE55673D13447885156 /* Pods-Insert3D_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E56D5BAD214C2CFEDA5D2CCA6C11AC4 /* Pods-Insert3D_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F77754159766D9487CD18DEA439C4133 /* Pods-Insert3D_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD97DFAC0EFAF2F6FB8FED625F1B2BE /* Pods-Insert3D_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EEFA43B78675555638B9F5956EDBFAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2F829B47B828B1776EE29A5494703E;
+			remoteInfo = "Pods-Insert3D_Example";
+		};
+		EA397256FC3B364251D9B6725802DF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C7F032825211B1F0985885BA084073;
+			remoteInfo = Insert3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E12BA288F7BD99DFC5D72F5E411F26D /* Insert3D.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Insert3D.xcconfig; sourceTree = "<group>"; };
+		1A15EE004DE5647781405BCFE6AF4EA8 /* Pods-Insert3D_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Insert3D_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A266531ED1E2DF49B2FA9ABC27DC88B /* Pods-Insert3D_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Insert3D_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		261E054D89F4AF470F31EBFAA0354643 /* Pods-Insert3D_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Insert3D_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		273EC3B88FDD6ACF33DD1C5AABF1ED6A /* Pods-Insert3D_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Insert3D_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34FC6A7024BD1A383FA2612FA80D4B84 /* Pods-Insert3D_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Insert3D_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3C7B4045C2AEA40D8F52F198184BBE7E /* Pods-Insert3D_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Insert3D_Example-dummy.m"; sourceTree = "<group>"; };
+		4934D338DFA550A4E18E4C435D0099CF /* Pods-Insert3D_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Insert3D_Example.modulemap"; sourceTree = "<group>"; };
+		4A51A7147EFEEEEEBDB78D93E3EF6D87 /* Pods_Insert3D_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Insert3D_Example.framework; path = "Pods-Insert3D_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB46B54F5BA6CA0F07D02E5798599CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		633ED609DDE2BB36D4EBE11C092A4182 /* Pods_Insert3D_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Insert3D_Tests.framework; path = "Pods-Insert3D_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6507CBC6DDE85062D997CF248B26D791 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Insert3D/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6A64CE71635AA941540B3FD1CA4FEE49 /* Pods-Insert3D_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Insert3D_Example-umbrella.h"; sourceTree = "<group>"; };
+		76805C0ECCDDE9806699E6D1DFBED941 /* Insert3D-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Insert3D-prefix.pch"; sourceTree = "<group>"; };
+		781DB88200D7D21EC0D267D1BB46B0F7 /* Insert3D-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Insert3D-Info.plist"; sourceTree = "<group>"; };
+		7FD97DFAC0EFAF2F6FB8FED625F1B2BE /* Pods-Insert3D_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Insert3D_Tests-dummy.m"; sourceTree = "<group>"; };
+		83F2B06D9531141265564E4CBF37C9A1 /* Pods-Insert3D_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Insert3D_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8E56D5BAD214C2CFEDA5D2CCA6C11AC4 /* Pods-Insert3D_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Insert3D_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC99D26DA7F8D4C983082FBA37A14795 /* Insert3D.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Insert3D.modulemap; sourceTree = "<group>"; };
+		BCECF00B793ED69CEEC3FB371B77CC0D /* Pods-Insert3D_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Insert3D_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C457E2A144EA89FB7F898EE218306C11 /* Insert3D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Insert3D.framework; path = Insert3D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77B2E432DFC5C5DD71CAC9331FF68D4 /* Pods-Insert3D_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Insert3D_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAF52186C57FF5D4F7A0469CADDEEFD1 /* Pods-Insert3D_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Insert3D_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CC2C5A632F6DC08DA9C033B14C255BF8 /* Pods-Insert3D_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Insert3D_Tests.modulemap"; sourceTree = "<group>"; };
+		D073A5234CF692241C9D5C569FFD417D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E23ABA2BEEB20E8BDC37C8DF6538FCB1 /* Insert3D-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Insert3D-umbrella.h"; sourceTree = "<group>"; };
+		E487C9B2F032A0A3CFCEE3DAA54D88AF /* Pods-Insert3D_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Insert3D_Example-Info.plist"; sourceTree = "<group>"; };
+		EA5CBCC6A8A0CD6BD6B49C9C2346A262 /* Insert3D.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Insert3D.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F1AA91FEC5826ADEE6BB97103F174346 /* Insert3D-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Insert3D-dummy.m"; sourceTree = "<group>"; };
+		F8CA9DD763AE52D9AE8B07A55509C273 /* Pods-Insert3D_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Insert3D_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A5E868B89D5A645676C1E8A8626C613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5963CB0842DEBE33FD3DEB7FB7CBA6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8266108AE33A7E71E312C32031973167 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AD25A71F4614F1300CF60D9BA55361 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA483ADDCC857178D8342204BD13668B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BF111B36F76BF1D6CFEF4F0B407E02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FEAB1DB7E114DDDF412C946F4B2B1A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA5CBCC6A8A0CD6BD6B49C9C2346A262 /* Insert3D.podspec */,
+				D073A5234CF692241C9D5C569FFD417D /* LICENSE */,
+				5FB46B54F5BA6CA0F07D02E5798599CC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		395112051B72A551A2DC5D82DBCCE400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C457E2A144EA89FB7F898EE218306C11 /* Insert3D.framework */,
+				4A51A7147EFEEEEEBDB78D93E3EF6D87 /* Pods_Insert3D_Example.framework */,
+				633ED609DDE2BB36D4EBE11C092A4182 /* Pods_Insert3D_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AB09016340F032C526E7775647BF0CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F665EDBAAC4BC1CE04E7A23CAA9E8E9A /* Insert3D */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		524455FF827B27252B5273B3A91DEFC5 /* Pods-Insert3D_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4934D338DFA550A4E18E4C435D0099CF /* Pods-Insert3D_Example.modulemap */,
+				261E054D89F4AF470F31EBFAA0354643 /* Pods-Insert3D_Example-acknowledgements.markdown */,
+				1A266531ED1E2DF49B2FA9ABC27DC88B /* Pods-Insert3D_Example-acknowledgements.plist */,
+				3C7B4045C2AEA40D8F52F198184BBE7E /* Pods-Insert3D_Example-dummy.m */,
+				CAF52186C57FF5D4F7A0469CADDEEFD1 /* Pods-Insert3D_Example-frameworks.sh */,
+				E487C9B2F032A0A3CFCEE3DAA54D88AF /* Pods-Insert3D_Example-Info.plist */,
+				6A64CE71635AA941540B3FD1CA4FEE49 /* Pods-Insert3D_Example-umbrella.h */,
+				273EC3B88FDD6ACF33DD1C5AABF1ED6A /* Pods-Insert3D_Example.debug.xcconfig */,
+				83F2B06D9531141265564E4CBF37C9A1 /* Pods-Insert3D_Example.release.xcconfig */,
+			);
+			name = "Pods-Insert3D_Example";
+			path = "Target Support Files/Pods-Insert3D_Example";
+			sourceTree = "<group>";
+		};
+		558187FBA276487FC5CB9179FCEEC381 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC99D26DA7F8D4C983082FBA37A14795 /* Insert3D.modulemap */,
+				0E12BA288F7BD99DFC5D72F5E411F26D /* Insert3D.xcconfig */,
+				F1AA91FEC5826ADEE6BB97103F174346 /* Insert3D-dummy.m */,
+				781DB88200D7D21EC0D267D1BB46B0F7 /* Insert3D-Info.plist */,
+				76805C0ECCDDE9806699E6D1DFBED941 /* Insert3D-prefix.pch */,
+				E23ABA2BEEB20E8BDC37C8DF6538FCB1 /* Insert3D-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Insert3D";
+			sourceTree = "<group>";
+		};
+		9B1BD35FEAA19BA7B82EA003FBAED46D /* Pods-Insert3D_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2C5A632F6DC08DA9C033B14C255BF8 /* Pods-Insert3D_Tests.modulemap */,
+				BCECF00B793ED69CEEC3FB371B77CC0D /* Pods-Insert3D_Tests-acknowledgements.markdown */,
+				1A15EE004DE5647781405BCFE6AF4EA8 /* Pods-Insert3D_Tests-acknowledgements.plist */,
+				7FD97DFAC0EFAF2F6FB8FED625F1B2BE /* Pods-Insert3D_Tests-dummy.m */,
+				F8CA9DD763AE52D9AE8B07A55509C273 /* Pods-Insert3D_Tests-Info.plist */,
+				8E56D5BAD214C2CFEDA5D2CCA6C11AC4 /* Pods-Insert3D_Tests-umbrella.h */,
+				C77B2E432DFC5C5DD71CAC9331FF68D4 /* Pods-Insert3D_Tests.debug.xcconfig */,
+				34FC6A7024BD1A383FA2612FA80D4B84 /* Pods-Insert3D_Tests.release.xcconfig */,
+			);
+			name = "Pods-Insert3D_Tests";
+			path = "Target Support Files/Pods-Insert3D_Tests";
+			sourceTree = "<group>";
+		};
+		9DBF4C11A27816F4EC8CA00DEF60773D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				524455FF827B27252B5273B3A91DEFC5 /* Pods-Insert3D_Example */,
+				9B1BD35FEAA19BA7B82EA003FBAED46D /* Pods-Insert3D_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3AB09016340F032C526E7775647BF0CC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				395112051B72A551A2DC5D82DBCCE400 /* Products */,
+				9DBF4C11A27816F4EC8CA00DEF60773D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F665EDBAAC4BC1CE04E7A23CAA9E8E9A /* Insert3D */ = {
+			isa = PBXGroup;
+			children = (
+				6507CBC6DDE85062D997CF248B26D791 /* ReplaceMe.swift */,
+				1FEAB1DB7E114DDDF412C946F4B2B1A1 /* Pod */,
+				558187FBA276487FC5CB9179FCEEC381 /* Support Files */,
+			);
+			name = Insert3D;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09AF8D87071C52EBFA7CCD4089E2B352 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C442CBEA938EF0658223863D9060D13 /* Pods-Insert3D_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C65EE20610DF6F492080083AE470F54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5F78513AAFB12F50D1FD78D8F38796 /* Insert3D-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58823635124A7022468E9D3479D7857 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAF1465CFDD4EE55673D13447885156 /* Pods-Insert3D_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B2F829B47B828B1776EE29A5494703E /* Pods-Insert3D_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2AD282FE42F1067B5F14ABEBE1E58C1 /* Build configuration list for PBXNativeTarget "Pods-Insert3D_Example" */;
+			buildPhases = (
+				09AF8D87071C52EBFA7CCD4089E2B352 /* Headers */,
+				4CEE9C65782F582D285F7DD13B0208CB /* Sources */,
+				2A5E868B89D5A645676C1E8A8626C613 /* Frameworks */,
+				D0D03C428651BFB116AAAE58A0A60B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EE3B9DF820BA978E9EF585B8657BCB8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Insert3D_Example";
+			productName = "Pods-Insert3D_Example";
+			productReference = 4A51A7147EFEEEEEBDB78D93E3EF6D87 /* Pods_Insert3D_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81C7F032825211B1F0985885BA084073 /* Insert3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192BD19742314163786FF7B78503D4BE /* Build configuration list for PBXNativeTarget "Insert3D" */;
+			buildPhases = (
+				8C65EE20610DF6F492080083AE470F54 /* Headers */,
+				AD4F8E5A7F5E56FE3B443860661C4F74 /* Sources */,
+				8266108AE33A7E71E312C32031973167 /* Frameworks */,
+				F20FEDE07721208E740A6779454302D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Insert3D;
+			productName = Insert3D;
+			productReference = C457E2A144EA89FB7F898EE218306C11 /* Insert3D.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D767E363BD8806A1D40BE63021524DC /* Pods-Insert3D_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A6ED11DEABA4A5DC3B1A1DC5CFCCC4 /* Build configuration list for PBXNativeTarget "Pods-Insert3D_Tests" */;
+			buildPhases = (
+				D58823635124A7022468E9D3479D7857 /* Headers */,
+				F1A7516471C05B52C294CCE7869683C5 /* Sources */,
+				CA483ADDCC857178D8342204BD13668B /* Frameworks */,
+				54CF427A34CEA10C539E6BDC7E89ADD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476241F97220D9515B7779976AA34FFA /* PBXTargetDependency */,
+			);
+			name = "Pods-Insert3D_Tests";
+			productName = "Pods-Insert3D_Tests";
+			productReference = 633ED609DDE2BB36D4EBE11C092A4182 /* Pods_Insert3D_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 395112051B72A551A2DC5D82DBCCE400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C7F032825211B1F0985885BA084073 /* Insert3D */,
+				0B2F829B47B828B1776EE29A5494703E /* Pods-Insert3D_Example */,
+				9D767E363BD8806A1D40BE63021524DC /* Pods-Insert3D_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54CF427A34CEA10C539E6BDC7E89ADD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D03C428651BFB116AAAE58A0A60B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20FEDE07721208E740A6779454302D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CEE9C65782F582D285F7DD13B0208CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80CADA9CF19EF8C20A77A57C2191D7B /* Pods-Insert3D_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4F8E5A7F5E56FE3B443860661C4F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B969219CDBDB910349C98783BCB8C7C4 /* Insert3D-dummy.m in Sources */,
+				4D975BCB0CEC3F9C562522014F049116 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1A7516471C05B52C294CCE7869683C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77754159766D9487CD18DEA439C4133 /* Pods-Insert3D_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		476241F97220D9515B7779976AA34FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Insert3D_Example";
+			target = 0B2F829B47B828B1776EE29A5494703E /* Pods-Insert3D_Example */;
+			targetProxy = 9EEFA43B78675555638B9F5956EDBFAE /* PBXContainerItemProxy */;
+		};
+		4EE3B9DF820BA978E9EF585B8657BCB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Insert3D;
+			target = 81C7F032825211B1F0985885BA084073 /* Insert3D */;
+			targetProxy = EA397256FC3B364251D9B6725802DF61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156EA09C2AD61533F90CBFFF3466A2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E12BA288F7BD99DFC5D72F5E411F26D /* Insert3D.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Insert3D/Insert3D-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Insert3D/Insert3D-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Insert3D/Insert3D.modulemap";
+				PRODUCT_MODULE_NAME = Insert3D;
+				PRODUCT_NAME = Insert3D;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D67AC3C8F8138CFF4EF189F3685F722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77B2E432DFC5C5DD71CAC9331FF68D4 /* Pods-Insert3D_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Insert3D_Tests/Pods-Insert3D_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Insert3D_Tests/Pods-Insert3D_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		652DF47AB4FB6CE61E06AAEEBBF51B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273EC3B88FDD6ACF33DD1C5AABF1ED6A /* Pods-Insert3D_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Insert3D_Example/Pods-Insert3D_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Insert3D_Example/Pods-Insert3D_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BF2C2036A916115C2DE934C7AF609976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FC6A7024BD1A383FA2612FA80D4B84 /* Pods-Insert3D_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Insert3D_Tests/Pods-Insert3D_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Insert3D_Tests/Pods-Insert3D_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4A413DEA79EBB7180D27A84CFB88B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E12BA288F7BD99DFC5D72F5E411F26D /* Insert3D.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Insert3D/Insert3D-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Insert3D/Insert3D-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Insert3D/Insert3D.modulemap";
+				PRODUCT_MODULE_NAME = Insert3D;
+				PRODUCT_NAME = Insert3D;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C542309746B7E868D3D06EBD34F7486E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F2B06D9531141265564E4CBF37C9A1 /* Pods-Insert3D_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Insert3D_Example/Pods-Insert3D_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Insert3D_Example/Pods-Insert3D_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		192BD19742314163786FF7B78503D4BE /* Build configuration list for PBXNativeTarget "Insert3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A413DEA79EBB7180D27A84CFB88B55 /* Debug */,
+				156EA09C2AD61533F90CBFFF3466A2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A6ED11DEABA4A5DC3B1A1DC5CFCCC4 /* Build configuration list for PBXNativeTarget "Pods-Insert3D_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D67AC3C8F8138CFF4EF189F3685F722 /* Debug */,
+				BF2C2036A916115C2DE934C7AF609976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2AD282FE42F1067B5F14ABEBE1E58C1 /* Build configuration list for PBXNativeTarget "Pods-Insert3D_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652DF47AB4FB6CE61E06AAEEBBF51B14 /* Debug */,
+				C542309746B7E868D3D06EBD34F7486E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

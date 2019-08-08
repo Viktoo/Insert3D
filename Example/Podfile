@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Insert3D_Example' do
+  pod 'Insert3D', :path => '../'
+
+  target 'Insert3D_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
