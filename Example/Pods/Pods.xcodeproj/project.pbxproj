@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2F5F78513AAFB12F50D1FD78D8F38796 /* Insert3D-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E23ABA2BEEB20E8BDC37C8DF6538FCB1 /* Insert3D-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D975BCB0CEC3F9C562522014F049116 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507CBC6DDE85062D997CF248B26D791 /* ReplaceMe.swift */; };
 		63AD25A71F4614F1300CF60D9BA55361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		6C442CBEA938EF0658223863D9060D13 /* Pods-Insert3D_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A64CE71635AA941540B3FD1CA4FEE49 /* Pods-Insert3D_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77F4131922FC59D000ABECB9 /* Insert3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F4131822FC59D000ABECB9 /* Insert3D.swift */; };
 		82BF111B36F76BF1D6CFEF4F0B407E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A5963CB0842DEBE33FD3DEB7FB7CBA6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B80CADA9CF19EF8C20A77A57C2191D7B /* Pods-Insert3D_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B4045C2AEA40D8F52F198184BBE7E /* Pods-Insert3D_Example-dummy.m */; };
@@ -46,27 +46,27 @@
 		34FC6A7024BD1A383FA2612FA80D4B84 /* Pods-Insert3D_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Insert3D_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3C7B4045C2AEA40D8F52F198184BBE7E /* Pods-Insert3D_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Insert3D_Example-dummy.m"; sourceTree = "<group>"; };
 		4934D338DFA550A4E18E4C435D0099CF /* Pods-Insert3D_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Insert3D_Example.modulemap"; sourceTree = "<group>"; };
-		4A51A7147EFEEEEEBDB78D93E3EF6D87 /* Pods_Insert3D_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Insert3D_Example.framework; path = "Pods-Insert3D_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FB46B54F5BA6CA0F07D02E5798599CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		633ED609DDE2BB36D4EBE11C092A4182 /* Pods_Insert3D_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Insert3D_Tests.framework; path = "Pods-Insert3D_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6507CBC6DDE85062D997CF248B26D791 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Insert3D/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4A51A7147EFEEEEEBDB78D93E3EF6D87 /* Pods_Insert3D_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insert3D_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB46B54F5BA6CA0F07D02E5798599CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		633ED609DDE2BB36D4EBE11C092A4182 /* Pods_Insert3D_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insert3D_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A64CE71635AA941540B3FD1CA4FEE49 /* Pods-Insert3D_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Insert3D_Example-umbrella.h"; sourceTree = "<group>"; };
 		76805C0ECCDDE9806699E6D1DFBED941 /* Insert3D-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Insert3D-prefix.pch"; sourceTree = "<group>"; };
+		77F4131822FC59D000ABECB9 /* Insert3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Insert3D.swift; sourceTree = "<group>"; };
 		781DB88200D7D21EC0D267D1BB46B0F7 /* Insert3D-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Insert3D-Info.plist"; sourceTree = "<group>"; };
 		7FD97DFAC0EFAF2F6FB8FED625F1B2BE /* Pods-Insert3D_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Insert3D_Tests-dummy.m"; sourceTree = "<group>"; };
 		83F2B06D9531141265564E4CBF37C9A1 /* Pods-Insert3D_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Insert3D_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8E56D5BAD214C2CFEDA5D2CCA6C11AC4 /* Pods-Insert3D_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Insert3D_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC99D26DA7F8D4C983082FBA37A14795 /* Insert3D.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Insert3D.modulemap; sourceTree = "<group>"; };
 		BCECF00B793ED69CEEC3FB371B77CC0D /* Pods-Insert3D_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Insert3D_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C457E2A144EA89FB7F898EE218306C11 /* Insert3D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Insert3D.framework; path = Insert3D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C457E2A144EA89FB7F898EE218306C11 /* Insert3D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Insert3D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77B2E432DFC5C5DD71CAC9331FF68D4 /* Pods-Insert3D_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Insert3D_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CAF52186C57FF5D4F7A0469CADDEEFD1 /* Pods-Insert3D_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Insert3D_Example-frameworks.sh"; sourceTree = "<group>"; };
 		CC2C5A632F6DC08DA9C033B14C255BF8 /* Pods-Insert3D_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Insert3D_Tests.modulemap"; sourceTree = "<group>"; };
-		D073A5234CF692241C9D5C569FFD417D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D073A5234CF692241C9D5C569FFD417D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E23ABA2BEEB20E8BDC37C8DF6538FCB1 /* Insert3D-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Insert3D-umbrella.h"; sourceTree = "<group>"; };
 		E487C9B2F032A0A3CFCEE3DAA54D88AF /* Pods-Insert3D_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Insert3D_Example-Info.plist"; sourceTree = "<group>"; };
-		EA5CBCC6A8A0CD6BD6B49C9C2346A262 /* Insert3D.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Insert3D.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EA5CBCC6A8A0CD6BD6B49C9C2346A262 /* Insert3D.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Insert3D.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F1AA91FEC5826ADEE6BB97103F174346 /* Insert3D-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Insert3D-dummy.m"; sourceTree = "<group>"; };
 		F8CA9DD763AE52D9AE8B07A55509C273 /* Pods-Insert3D_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Insert3D_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,7 +213,7 @@
 		F665EDBAAC4BC1CE04E7A23CAA9E8E9A /* Insert3D */ = {
 			isa = PBXGroup;
 			children = (
-				6507CBC6DDE85062D997CF248B26D791 /* ReplaceMe.swift */,
+				77F4131822FC59D000ABECB9 /* Insert3D.swift */,
 				1FEAB1DB7E114DDDF412C946F4B2B1A1 /* Pod */,
 				558187FBA276487FC5CB9179FCEEC381 /* Support Files */,
 			);
@@ -373,7 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B969219CDBDB910349C98783BCB8C7C4 /* Insert3D-dummy.m in Sources */,
-				4D975BCB0CEC3F9C562522014F049116 /* ReplaceMe.swift in Sources */,
+				77F4131922FC59D000ABECB9 /* Insert3D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +419,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Insert3D/Insert3D-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Insert3D/Insert3D-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Insert3D/Insert3D.modulemap";
 				PRODUCT_MODULE_NAME = Insert3D;
@@ -549,13 +549,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -612,7 +611,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -675,7 +674,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Insert3D/Insert3D-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Insert3D/Insert3D-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Insert3D/Insert3D.modulemap";
 				PRODUCT_MODULE_NAME = Insert3D;
