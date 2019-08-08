@@ -15,20 +15,28 @@ public struct Insert3DViewer {
     public var height: Int
     public var x: Int
     public var y: Int
+    public var background: NSObject
     public init() {
         width = 200;
         height = 200;
         x = 0;
         y = 0;
+        background = UIColor.white;
     }
 }
 
 public struct Insert3DModel {
     public var mesh: String
     public var material: String
+    public var autoRotate: Bool
+    public var rotationSpeed: TimeInterval
+    public var fixed: Bool
     public init() {
         mesh = "";
         material = "";
+        autoRotate = true;
+        fixed = false;
+        rotationSpeed = 7;
     }
 }
 
@@ -68,22 +76,24 @@ extension UIView {
         let modelNode = SCNNode(mdlObject: object)
         scene.rootNode.addChildNode(modelNode)
         
-        modelNode.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 7
-        )))
+        if modelSetup.autoRotate == true {
+            modelNode.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: modelSetup.rotationSpeed
+            )))
+        }
         
-        let scnView = SCNView(frame: CGRect(x: viewerSetup.x, y: viewerSetup.y , width: viewerSetup.width , height: viewerSetup.height))
+        let scnView = SCNView(frame: CGRect(x: viewerSetup.x, y: viewerSetup.y, width: viewerSetup.width, height: viewerSetup.height))
         //self.view.addSubview(scnView)
         self.addSubview(scnView)
         scnView.scene = scene
         
         //set up scene
         scnView.autoenablesDefaultLighting = false
-        scnView.allowsCameraControl = true
+        scnView.allowsCameraControl = !modelSetup.fixed
         scnView.scene = scene
-        scene.background.contents = UIColor.white
-        //scene.background.contents = modelSetup.background
+        //scnView.backgroundColor = UIColor.clear
+        scene.background.contents = viewerSetup.background
+        
     }
-    
 }
 
 
