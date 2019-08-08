@@ -6,16 +6,25 @@
 //
 
 import UIKit
+//import Insert3Ddev
 
 class ViewController: UIViewController {
     
-    let modelMesh = "model/Nachos.obj"
-    let modelMaterial = "model/NachosMaterial.jpg"
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Insert3D(width: 380, height: 380, x: 0, y: 0)
+        let viewer = Insert3DViewer()
+        viewer.width = 380
+        viewer.height = 380
+        
+        let model = Insert3DModel()
+        model.mesh = "model/Nachos.obj"
+        model.material = "model/NachosMaterial.jpg"
+        
+        view.Insert3D(viewerSetup: viewer, modelSetup: model)
+        
+        //view.Insert3D(viewerSetup: Insert3DViewer.init(), modelSetup: Insert3DModel.init())
     }
 }
 

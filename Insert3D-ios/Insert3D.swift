@@ -10,11 +10,36 @@ import SceneKit
 import ModelIO
 import SceneKit.ModelIO
 
-extension ViewController {
-    func Insert3D(width: Int, height : Int, x: Int, y: Int) {
+public class Insert3DViewer {
+    public var width: Int
+    public var height: Int
+    public var x: Int
+    public var y: Int
+    public init() {
+        width = 200;
+        height = 200;
+        x = 0;
+        y = 0;
+    }
+}
+
+public class Insert3DModel {
+    public var mesh: String
+    public var material: String
+    public init() {
+        mesh = "";
+        material = "";
+    }
+}
+
+
+extension UIView {
+    
+    public func Insert3D(viewerSetup: Insert3DViewer, modelSetup: Insert3DModel) {
         
-        // Load the model file
-        guard let url = Bundle.main.url(forAuxiliaryExecutable: modelMesh) else {
+        let scene = SCNScene()
+        
+        guard let url = Bundle.main.url(forAuxiliaryExecutable: modelSetup.mesh) else {
             fatalError("Failed to find model file.")
         }
         
@@ -28,8 +53,8 @@ extension ViewController {
         let scatteringFunction = MDLScatteringFunction()
         let material = MDLMaterial(name: "baseMaterial", scatteringFunction: scatteringFunction)
         
-        let meshUrl = Bundle.main.url(forResource: modelMaterial, withExtension: "")
-        material.setProperty(MDLMaterialProperty(name: modelMaterial, semantic: .baseColor, url: meshUrl))
+        let meshUrl = Bundle.main.url(forResource: modelSetup.material, withExtension: "")
+        material.setProperty(MDLMaterialProperty(name: modelSetup.material, semantic: .baseColor, url: meshUrl))
         
         // Apply the texture to every submesh of the asset
         for  submesh in object.submeshes!  {
@@ -39,26 +64,28 @@ extension ViewController {
             }
         }
         
-        let scene = SCNScene()
-        //let scene = SCNScene(mdlAsset: asset)
-        
-        //let scnView = SCNView(frame: CGRect(x: (viewerPositionX), y: (viewerPositionY) , width: (viewerWidth) , height: (viewerHeight)))
-        let scnView = SCNView(frame: CGRect(x: x, y: y , width: width , height: height))
-        self.view.addSubview(scnView)
-        scnView.scene = scene
-        
         // Wrap the ModelIO object in a SceneKit object
-        let node = SCNNode(mdlObject: object)
-        scene.rootNode.addChildNode(node)
+        let modelNode = SCNNode(mdlObject: object)
+        scene.rootNode.addChildNode(modelNode)
         
-        node.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 7
+        modelNode.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 7
         )))
+        
+        let scnView = SCNView(frame: CGRect(x: viewerSetup.x, y: viewerSetup.y , width: viewerSetup.width , height: viewerSetup.height))
+        //self.view.addSubview(scnView)
+        self.addSubview(scnView)
+        scnView.scene = scene
         
         //set up scene
         scnView.autoenablesDefaultLighting = false
         scnView.allowsCameraControl = true
         scnView.scene = scene
-        //scene.background.contents = viewerBackground
         scene.background.contents = UIColor.white
-        }
+        //scene.background.contents = modelSetup.background
+    }
+    
 }
+
+
+
+
