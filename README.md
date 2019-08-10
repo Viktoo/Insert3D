@@ -4,7 +4,7 @@
 
 
 
-Insert3D is the **easiest** 🥳and **fastest** 🚀way to embed a 3D model in your iOS app. It combines SceneKit and Model I/O into a simple library for creative iOS developers who want to provide a unique experience for their users.
+Insert3D is the **easiest** 🥳 and **fastest** 🚀 way to embed a 3D model in your iOS app. It combines SceneKit and Model I/O into a simple library for creative iOS developers who want to provide a unique experience for their users.
 
 # Installation
 
