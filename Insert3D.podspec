@@ -18,19 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  'Insert3D is the easiest and fastest way to embed a 3D model in your iOS app. It combines SceneKit and Model I/O into a simple library for creative iOS developers who want to provide a unique experience for their users.'                       DESC
 
   s.homepage         = 'https://github.com/Viktoo/Insert3D'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'GPL', :file => 'LICENSE' }
+  s.license          = { :type => 'BSD-2-Clause', :file => 'LICENSE' }
   s.author           = { 'Viktor Makarskyy' => 'viktor@makarskyy.com' }
   s.source           = { :git => 'https://github.com/Viktoo/Insert3D.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/makarskyy'
+  s.social_media_url = 'https://twitter.com/makarskyy'
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'Insert3D/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'Insert3D' => ['Insert3D/Assets/*.png']

@@ -158,6 +158,14 @@
 			path = "Example/Pods/Target Support Files/Insert3D";
 			sourceTree = "<group>";
 		};
+		776D7B4222FF72150096CB14 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				77F4131822FC59D000ABECB9 /* Insert3D.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		9B1BD35FEAA19BA7B82EA003FBAED46D /* Pods-Insert3D_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,7 +221,7 @@
 		F665EDBAAC4BC1CE04E7A23CAA9E8E9A /* Insert3D */ = {
 			isa = PBXGroup;
 			children = (
-				77F4131822FC59D000ABECB9 /* Insert3D.swift */,
+				776D7B4222FF72150096CB14 /* Source */,
 				1FEAB1DB7E114DDDF412C946F4B2B1A1 /* Pod */,
 				558187FBA276487FC5CB9179FCEEC381 /* Support Files */,
 			);
