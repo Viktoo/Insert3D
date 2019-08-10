@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-  'Insert3D is the easiest and fastest way to embed a 3D model in your iOS app. It combines SceneKit and Model I/O into a simple library for creative iOS developers who want to provide a unique experience for their users.'                       DESC
+  s.description      = 'Insert3D is the easiest and fastest way to embed a 3D model in your iOS app. It combines SceneKit and Model I/O into a simple library for creative iOS developers who want to provide a unique experience for their users.'
 
   s.homepage         = 'https://github.com/Viktoo/Insert3D'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
