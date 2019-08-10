@@ -4,7 +4,7 @@
 
 
 
-Insert3D is the **easiest** 🥳and **fastest** 🚀way to add a 3D model model into Swift. It combines SceneKit and Model I/O into a simple library for creative iOS developers who want to provide a unique experience for their users.
+Insert3D is the **easiest** 🥳and **fastest** 🚀way to add a 3D model into Swift. It combines SceneKit and Model I/O into a simple library for creative iOS developers who want to provide a unique experience for their users.
 
 # Installation
 
@@ -46,7 +46,7 @@ Create instances of `Insert3DViewer()` and `Insert3DModel()` and specify paramet
 Instances of `Insert3DViewer()` set the dimensions and position of the `SCNView` subview where the model is a central node.
 
 ```swift
-// Values can be progromatically set and adjusted at any time. 
+// Values can be progromatically set and adjusted at any time 
 var viewer = Insert3DViewer() 
 viewer.width = 380 // Width 
 viewer.height = 380 // Height 
@@ -67,7 +67,7 @@ Included are default values width = 200, height = 200, x = 0, and y = 0.
 
 **Background**
 
-Background support's _Any_, providing much flexibility for usage:
+Background support's `Any`, providing much flexibility for usage:
 
 -   A color ([NSColor](<https://developer.apple.com/documentation/appkit/nscolor>)/[UIColor](<https://developer.apple.com/documentation/uikit/uicolor>) or [CGColor](<https://developer.apple.com/documentation/coregraphics/cgcolor>)), specifying a uniform color for the material’s surface
 -   A number ([NSNumber](<https://developer.apple.com/documentation/foundation/nsnumber>)), specifying a uniform scalar value for the material's surface (useful for physically based properties such as [metalness](<https://developer.apple.com/documentation/scenekit/scnmaterial/1640554-metalness>))
