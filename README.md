@@ -64,7 +64,7 @@ view.Insert3D(viewerSetup: viewer, modelSetup: model) // modelSetup is also requ
 
 **Dimensions**
 
-Dimensions using the relative position on screen can be expressed by converting them into `Int`. For example, to center alignin the viewer, set the value for x equal to `Int(UIScreen.main.bounds.size.width*0.5) - viewer.width/2`.
+Dimensions using the relative position on screen can be expressed by converting them into `Int`. For example, to center align the viewer, set the value for x equal to `Int(UIScreen.main.bounds.size.width*0.5) - viewer.width/2`.
 
 Included are default values width = 200, height = 200, x = 0, and y = 0.
 
