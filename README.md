@@ -1,4 +1,7 @@
 <p align="center">
+<img src = "Art/CodeSnippetImage.png" width="359" height="136.6"/>
+</p>
+<p align="center">
   <img src="https://media.giphy.com/media/oXbZqtyQ8IvwA/giphy.gif"/>
 </p>
 
