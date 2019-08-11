@@ -4,7 +4,7 @@
 
 
 
-Insert3D is the **easiest** 🥳 and **fastest** 🚀 way to embed a 3D model in your iOS app. It combines SceneKit and Model I/O into a simple library for creative iOS developers who want to provide a unique experience for their users.
+**Insert3D** is the **easiest** 🥳 and **fastest** 🚀 way to embed a 3D model in your iOS app. It combines SceneKit and Model I/O into a simple library for creative iOS developers who want to provide a unique experience for their users.
 
 # Installation
 
@@ -61,7 +61,7 @@ view.Insert3D(viewerSetup: viewer, modelSetup: model) // modelSetup is also requ
 
 **Dimensions**
 
-Dimensions using the relative position on screen can be expressed by converting them into `Int` ([described here](https://stackoverflow.com/questions/3678255/centering-a-cgrect-in-a-view/3678285#3678285)).
+Dimensions using the relative position on screen can be expressed by converting them into `Int`. For example, to center alignin the viewer, set the value for x equal to `Int(UIScreen.main.bounds.size.width*0.5) - viewer.width/2`.
 
 Included are default values width = 200, height = 200, x = 0, and y = 0.
 
