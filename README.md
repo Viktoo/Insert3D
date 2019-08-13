@@ -7,7 +7,9 @@
 
 
 
-**Insert3D** is the **easiest** 🥳 and **fastest** 🚀 way to embed a 3D model in your iOS app. It combines SceneKit and Model I/O into a simple library for creative iOS developers who want to provide a unique experience for their users.
+**Insert3D** is the **easiest** 🥳 and **fastest** 🚀 way to embed a 3D model in your iOS app. It combines SceneKit and Model I/O into a simple library for creative iOS developers who want to provide a unique experience for their users. This library uniquely supports both:
+* Static implementations to easily replace images with engaging 3D content without learning SceneKit.
+* Dynamic implementations where models need to be programmatically loaded via URLs using the raw 3D filetype on run-time.
 
 # Installation
 
@@ -90,7 +92,7 @@ Instances of `Insert3DModel()` let `Insert3D()` know which model you'd like to u
 ```swift
 // Values can be progromatically set and adjusted at any time.
 var model = Insert3DModel()
-model.mesh = "my3DFilePath" // Currently supports OBJ
+model.mesh = "my3DFilePath" // Currently supports OBJ. 
 model.texture = "myTexturePath" // Supports image files already mapped to the model
 
 model.autoRotate = true // Set true by default. Rotates on the horizontal axis
@@ -103,6 +105,10 @@ view.Insert3D(viewerSetup: viewer, modelSetup: model) // viewerSetup is also req
 
 ```
 NOTE: There are infinite possible customization one could apply to a model, and included here are the basic ones. Consider expanding this repository's functionality via a contribution.
+
+**Load via URL**
+
+The model and texture paths are a `String`. This means you can load a model + texture dynamically using `URL(string: "https://myURL/file")`
 
 # Contributing
 
